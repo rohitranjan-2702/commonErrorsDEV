@@ -22,7 +22,7 @@ Now you are good to go!
 
 [Why this happens?]()
 
-### 1. `CORS` (Cross-Origin Resource Sharing) error, which comes when an application running on one port accesses application running on another port.
+### 2. `CORS` (Cross-Origin Resource Sharing) error, which comes when an application running on one port accesses application running on another port.
 
 ## Solution
 
