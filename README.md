@@ -1,6 +1,17 @@
 # commonErrorsDEV
 Solutions to some common issue/errors that developers face.
 
+### - Error: Can't set headers after they are sent to the client
+
+usually happens when you send several responses for one request. Make sure the following functions are called only once per request:
+
+res.json()
+res.send()
+res.redirect()
+res.render()
+
+Only one response can be sent per request! Remember!
+
 
 ### 1. Running 'vercel' command after installing vercel 'npm i -g vercel'
 
