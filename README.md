@@ -1,6 +1,13 @@
 # commonErrorsDEV
 Solutions to some common issue/errors that developers face.
 
+### - Download a databse from Mongodb Atlas {with connection url string}
+
+Run this command in the command prompt
+`mongoexport --uri mongodb+srv://<username>@atlas-cluster-url.mongodb.net/<db-name> --collection <collection-name> --out <path-to-export>`
+
+Install MongoDB Tools from here: https://www.mongodb.com/try/download/database-tools 
+
 ### - Error: Can't set headers after they are sent to the client
 
 usually happens when you send several responses for one request. Make sure the following functions are called only once per request:
